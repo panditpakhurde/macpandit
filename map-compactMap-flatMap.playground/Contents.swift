@@ -52,10 +52,10 @@ print(finalFlatValidURLs)
 
 // --- Using flatMap to transform the [[Int]] ---
 
-var integers = [[4,5,6], [9, 1], [3,5,2]]
+var int2DArray = [[4,5,6], [9, 1], [3,5,2]]
 
-let Nnumbers = integers.flatMap { $0 }
-print(Nnumbers)
+let integers = int2DArray.flatMap { $0 }
+print(integers)
 //[4, 5, 6, 9, 1, 3, 5, 2]
 
 
