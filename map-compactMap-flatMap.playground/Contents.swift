@@ -76,6 +76,6 @@ print(intsCompact)
 // --- Using map to transform Array to [Int] ---
 
 let intsFlat = numbers.flatMap { Int($0)}
-print(intsCompact)
+print(intsFlat)
 //use of flatMap to map optional values is deprecated, instead use compactMap for the same.
 
